@@ -1,0 +1,236 @@
+baseURL: http://hospitalolivo.com/
+languageCode: en-us
+title: Hospital Olivo
+
+module:
+  # uncomment line below for local development of module
+  # workspace: hugo.work
+  imports:
+    path: github.com/StefMa/hugo-fresh
+
+
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/fresh.svg
+    link: /
+    # Default width/height. Uncomment if you need to change
+    # width: 112
+    # height: 28
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Hospital Olivo
+    # Hero subtitle (optional)
+    subtitle: Atención médica de alta calidad para usted y su familia.
+    # Button text
+    buttontext: Blog
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/*.svg)
+    # urls are optional
+    clientlogos:
+    - logo: systek
+      url: https://google.com
+    - logo: tribe
+      url: https://stefma.github.io/hugo-fresh/
+    - logo: kromo
+      url: https://github.com/StefMa/hugo-fresh
+    - logo: infinite
+      url: https://hugo-fresh.vercel.app/
+    - logo: gutwork
+      url: https://bulma.io/
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Inicio
+    url: /
+  - title: Servicios
+    url: /base/servicios
+  - title: Nosotros
+    url: /base/nosotros
+  - title: Contacto
+    url: /
+  - title: Pacientes
+    sublinks:
+    - title: Cita previa
+      url: /
+    - title: Consulta de resultados
+      url: /
+  - title: Log in
+    url: /
+    button: true
+#  - title: Sign up
+#    url: /
+#    button: true
+  sidebar:
+    # Logo (from static/images/logos/___.svg)
+    logo: fresh-square
+    sections:
+    - title: Consulta de resultados
+      icon: user
+      links:
+      - text: Resultados de laboratorio
+        url: /
+      - text: Resultados de imagenes
+        url: /
+      - text: Resultados de anatomía patológica
+        url: /
+    - title: Contacto
+      icon: envelope
+      links:
+      - text: Teléfono
+        url: /
+      - text: Whastapp
+        url: /
+      - text: Email
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
+  section1:
+    title: Junto a ti desde 1989.
+    subtitle: Gama completa de servicios médico-quirúrgicos para toda la familia
+    tiles:
+    - title: Enfoque centrado en el paciente
+      icon: mouse-globe
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Free trial
+    - title: Servicio médico de calidad
+      icon: laptop-cloud
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
+    - title: Asequible y accesible
+      icon: plug-cloud
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
+  section2:
+    title: Atención integral para adultos y niños
+    subtitle: Poseemos los servicios necesarios para ofrecerte una atención de calidad.
+    features:
+    - title: Departamento de medicina
+      text: Partimos de una visión global del paciente junto con el apoyo del resto de departamentos para llegar al un diagnóstico certero. El apoyo tecnológico de esta nueva etapa  incrementa la capacidad resolutiva de nuestros profesionales.El apoyo de facultativos de referencia permite el manejo de paciente de alta complejidad.
+      # Icon (from static/images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Departamento de cirugía
+      text: Nuestro equipo quirúrgico altamente capacitado para solucionar un alto porcentaje de patología, tanto el pre y postquirúrgico son evaluados por un equipo multidisciplinar para valoración de riesgo y minimizar complicaciones.
+      icon: doc-sync
+    - title: Laboratorio clínico
+      text: Nuestro laboratorio clínico cumple con los estándares establecidos para garantizar resultados más fiables. Somos parte de la red tecnología del Hospital Olivo compartiendo información entre sus sistemas para brindarte todo tu historial clínico en un solo lugar.
+      icon: mobile-feed
+    - title: Departamento de imágenes
+      text: Con equipos de última generación y sistemas de recolección de datos que apoyaran el diagnóstico de médicos y cirujanos.También nos encontramos enlazados con el sistema principal del Hospital Olivo para brindarte todos tus estudios de imagen en un solo lugar.
+      icon: mobile-feed
+    - title: Departamento de odontología
+      text: Poseemos el departamento equipado con la mayor tecnología para brindar atención en todas las especialidades odontológicas.
+      icon: doc-sync
+  section3:
+    title: Nuestro blog
+    subtitle: Aqui podrás encontrar información sobre salud y actualidad, cada cierto tiempo actualizamos información de interés.
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+#  section4:
+#    title: Our Clients love us!
+#    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+#    clients:
+#    - name: Irma Walters
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Accountant
+#      img: 1
+#    - name: John Bradley
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Financial Analyst
+#      img: 2
+#    - name: Gary Blackman
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: HR Manager
+#      img: 3
+  section5:
+    title: Tu salud es nuestra prioridad
+    subtitle: Separa tu cita médica
+    buttonText: Envia un mensaje
+    # action: https://formspree.io/f/<form_id>
+    # method: POST
+  footer:
+    # Logo (from static/images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/StefMa
+      # Icons are from Font Awesome
+      icon: whatsapp
+    - link: https://dribbble.com/#
+      icon: instagram
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/StefMa91
+      icon: youtube
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Links"
+        links:
+        - text: Servicios
+          link: /
+        - text: Nosotros
+          link: /
+        - text: Contacto
+          link: /
+        - text: Trabaja con nosotros
+          link: /
+        - text: Consulta tus resultados
+          link: /agb
+      column2:
+        title: "Institucionales"
+        links:
+        - text: Intranet
+          link: /
+        - text: Resultados
+          link: /
+#        - text: Admin guide
+#          link: /
+#        - text: Developers
+#          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Ultimas noticias
+          link: /blog/first
+        - text: Novedades
+          link: /blog/second

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bases on Hospital Olivo</title>
+    <link>http://localhost:1313/base/</link>
+    <description>Recent content in Bases on Hospital Olivo</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/base/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cita previa</title>
+      <link>http://localhost:1313/base/citaprevia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/base/citaprevia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consulta de resultados</title>
+      <link>http://localhost:1313/base/consultaresultados/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/base/consultaresultados/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>http://localhost:1313/base/contacto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/base/contacto/</guid>
+      <description>&lt;h2 id=&#34;dirección&#34;&gt;Dirección&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sucre y Gonzalez Suárez esquina, 070401&lt;/li&gt;&#xA;&lt;li&gt;Piñas-El Oro-Ecuador&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;información-de-contacto&#34;&gt;Información de contacto&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Teléfono: (+593)-2977-008&lt;/li&gt;&#xA;&lt;li&gt;Número de emergencia: (+593)994139126&lt;/li&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;mailto:info@hospitalolivo.com&#34;&gt;info@hospitalolivo.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;¿ Cómo llegar ?&lt;/p&gt;&#xA;&lt;div style=&#34;max-width:100%;overflow:hidden;color:red;width:500px;height:500px;&#34;&gt;&lt;div id=&#34;g-mapdisplay&#34; style=&#34;height:100%; width:100%;max-width:100%;&#34;&gt;&lt;iframe style=&#34;height:100%;width:100%;border:0;&#34; frameborder=&#34;0&#34; src=&#34;https://www.google.com/maps/embed/v1/place?q=hospitalolivo&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;a class=&#34;code-for-google-map&#34; rel=&#34;nofollow&#34; href=&#34;https://www.bootstrapskins.com/themes&#34; id=&#34;authorize-maps-data&#34;&gt;premium bootstrap themes&lt;/a&gt;&lt;style&gt;#g-mapdisplay .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;&lt;/style&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Nosotros</title>
+      <link>http://localhost:1313/base/nosotros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/base/nosotros/</guid>
+      <description>&lt;h2 id=&#34;hospital-olivo-es-un-sistema-de-atención--que-brinda-atención-médica-integral-y-excepcional-para-adultos-y-niños&#34;&gt;Hospital Olivo es un sistema de atención  que brinda atención médica integral y excepcional para adultos y niños.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;estamos-junto-a-la-comunidad-desde-1989-y-hemos-crecido-junto-a-ustedes-esto-nos-ha-proporcionado-una-visión-general-de-la-necesidades-generales-en-salud&#34;&gt;Estamos junto a la comunidad desde 1989 y hemos crecido junto a ustedes, esto nos ha proporcionado una visión general de la necesidades generales en salud.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;nuestra-integración-con-las-nuevas-tecnologias-brindará-al-paciente-una-visión-más-acertada-que-facilicitará-el-diagnóstico&#34;&gt;Nuestra integración con las nuevas tecnologias brindará al paciente una visión más acertada que facilicitará el diagnóstico.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;tenemos-asociaciónes-con-organizaciónes-líderes-en-el-sector-para-brindar-mayor-calidad-en-el-servicio&#34;&gt;Tenemos asociaciónes con organizaciónes líderes en el sector para brindar mayor calidad en el servicio.&lt;/h2&gt;&#xA;&lt;h1 id=&#34;donde-quiera-que-se-ama-el-arte-de-la-medicina-se-ama-también-a-la-humanidad&#34;&gt;“Donde quiera que se ama el arte de la medicina se ama también a la humanidad.”&lt;/h1&gt;&#xA;&lt;h1 id=&#34;acerca-de-nuestra-práctica-médica&#34;&gt;Acerca de nuestra práctica médica&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nos-centramos-en-el-bienestar-del-paciente-acompañamos-durante-todo-el-proceso-diagnóstico-y-de-tratamiento&#34;&gt;Nos centramos en el bienestar del paciente, acompañamos durante todo el proceso diagnóstico y de tratamiento.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;crecemos-junto-a-ti-siempre-con-los-mejores-especialistas-médico-y-acompañados-de-la-mejor-tecnología-para-brindarte-un-servicio-de-calidad&#34;&gt;Crecemos junto a ti, siempre con los mejores especialistas médico y acompañados de la mejor tecnología para brindarte un servicio de calidad&lt;/h2&gt;&#xA;&lt;h1 id=&#34;nuestro-compromiso&#34;&gt;Nuestro compromiso&lt;/h1&gt;&#xA;&lt;h2 id=&#34;accesible&#34;&gt;Accesible&lt;/h2&gt;&#xA;&lt;h3 id=&#34;nos-comprometemos-en-asegurar-los-recursos-necesarios-a-la-población-para-asegurar-un-diagnóstico-certero&#34;&gt;Nos comprometemos en asegurar los recursos necesarios a la población para asegurar un diagnóstico certero.&lt;/h3&gt;&#xA;&lt;h2 id=&#34;respeto&#34;&gt;Respeto&lt;/h2&gt;&#xA;&lt;h3 id=&#34;uno-de-los-pilares-de-nuestra-practica-en-el-respeto-de-todos-los-derechos-del-paciente-vigilando-siempre-su-cumplimiento&#34;&gt;Uno de los pilares de nuestra practica en el respeto de todos los derechos del paciente, vigilando siempre su cumplimiento.&lt;/h3&gt;&#xA;&lt;h2 id=&#34;confiable&#34;&gt;Confiable&lt;/h2&gt;&#xA;&lt;h3 id=&#34;auditamos-con-frecuencia-todos-nuestros-servicios-para-brindar-la-mayor-seguridad-durante-el-proceso-de-diagnóstico-y-seguimiento&#34;&gt;Auditamos con frecuencia todos nuestros servicios para brindar la mayor seguridad durante el proceso de diagnóstico y seguimiento.&lt;/h3&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Servicios</title>
+      <link>http://localhost:1313/base/servicios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/base/servicios/</guid>
+      <description>&lt;p&gt;Gama completa de servicios médico-quirúrgicos para toda la familia&lt;/p&gt;&#xA;&lt;p&gt;Servicios de atención adaptados a sus necesidades&lt;/p&gt;&#xA;&lt;p&gt;Servicios y departamentos&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chequeos de rutina&#xA;La medicina primaria es uno de los pilares de nuestro hospital, ofrecemos periódicos para paciente en general y con enfermedades crónicas para el diagnóstico precoz o para un control óptimo de su patología.&lt;/li&gt;&#xA;&lt;li&gt;Departamento de médicina&#xA;Partimos de una visión global del paciente junto con el apoyo del resto de departamentos para llegar al un diagnóstico certero.&#xA;El apoyo tecnológico de esta nueva etapa  incrementa la capacidad resolutiva de nuestros profesionales.&#xA;El apoyo de facultativos de referencia permite el manejo de paciente de alta complejidad.&lt;/li&gt;&#xA;&lt;li&gt;Departamento de cirugía&#xA;Nuestro equipo quirúrgico altamente capacitado para solucionar un alto porcentaje de patología, tanto el pre y postquirúrgico son evaluados por un equipo multidisciplinar para valoración de riesgo y minimizar complicaciones.&lt;/li&gt;&#xA;&lt;li&gt;Emergencia&#xA;Estamos preparados para atenter emergencias médicas brindando soporte y resolución de los problemas más frecuentes de nuestra población.&lt;/li&gt;&#xA;&lt;li&gt;Departamento de odontología&#xA;Poseemos el departamento equipado con la mayor tecnología para brindar atención en todas las especialidades odontológicas.&lt;/li&gt;&#xA;&lt;li&gt;Laboratorio clínico y microbiología&#xA;Nuestro laboratorio clínico cumple con los estándares establecidos para garantizar resultados más fiables.&#xA;Somos parte de la red tecnología del Hospital Olivo compartiendo información entre sus sistemas para brindarte todo tu historial clínico en un solo lugar.&lt;/li&gt;&#xA;&lt;li&gt;Departamento de radiología&#xA;Con equipos de última generación y sistemas de recolección de datos que apoyaran el diagnóstico de médicos y cirujanos.&#xA;También nos encontramos enlazados con el sistema principal del Hospital Olivo para brindarte todos tus estudios de imagen en un solo lugar.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

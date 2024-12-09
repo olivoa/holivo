@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.139.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+<meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="Hospital Olivo">
+  <meta property="og:title" content="Hospital Olivo">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+<meta name="description" content="Hardcoded description; the author should update :)" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hospital Olivo</title>
+    
+  
+<link rel="icon" type="image/png" href="/favicon/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+  </head>
+  <body>
+    
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+    
+
+    
+
+    
+    <section class="hero is-fullheight is-default is-bold">
+  
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo512.png" alt="" width="150" height="100">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="/" class="navbar-item is-secondary">
+            Inicio
+          </a>
+          <a href="/base/servicios" class="navbar-item is-secondary">
+            Servicios
+          </a>
+          <a href="/base/nosotros" class="navbar-item is-secondary">
+            Nosotros
+          </a>
+          <a href="/base/contacto" class="navbar-item is-secondary">
+            Contacto
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Pacientes
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/base/citaprevia" class="navbar-item">
+                Cita previa
+              </a>
+              <a href="/base/consultaresultados" class="navbar-item">
+                Consulta de resultados
+              </a>
+            </div>
+          </div>
+          <a href="/" class="navbar-item">
+            <span class="button signup-button rounded secondary-btn raised">
+              Log in
+            </span>
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+  
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo512.png" alt="" width="150" height="150">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="/" class="navbar-item is-secondary">
+          Inicio
+        </a>
+        <a href="/base/servicios" class="navbar-item is-secondary">
+          Servicios
+        </a>
+        <a href="/base/nosotros" class="navbar-item is-secondary">
+          Nosotros
+        </a>
+        <a href="/base/contacto" class="navbar-item is-secondary">
+          Contacto
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Pacientes
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/base/citaprevia" class="navbar-item">
+              Cita previa
+            </a>
+            <a href="/base/consultaresultados" class="navbar-item">
+              Consulta de resultados
+            </a>
+          </div>
+        </div>
+        <a href="/" class="navbar-item">
+          <span class="button signup-button rounded secondary-btn raised">
+            Log in
+          </span>
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+  
+<div class="hero-body">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1 landing-caption">
+        <h1 class="title is-1 is-bold is-spaced">
+          Hospital Olivo
+        </h1>
+        
+        <h2 class="subtitle is-5 is-muted">
+          Atención médica de alta calidad para usted y su familia.
+        </h2>
+        
+        <p>
+          <a class="button cta rounded primary-btn raised" href="#">
+            Blog
+          </a>
+        </p>
+      </div>
+      <div class="column is-5 is-offset-1">
+        <figure class="image is-4by3">
+          <img src="/images/base/home-hero.jpg" alt="Description">
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="hero-foot mb-20">
+  <div class="container">
+    <div class="tabs is-centered">
+      <ul>
+        <li>
+          <a  href="https://hospitalolivo.com" >
+            <img class="partner-logo" src="/images/logos/clients/systek.svg">
+          </a>
+        </li>
+        <li>
+          <a  href="https://farmaciasolivo.com" >
+            <img class="partner-logo" src="/images/logos/clients/tribe.svg">
+          </a>
+        </li>
+        <li>
+          <a  href="https://github.com/StefMa/hugo-fresh" >
+            <img class="partner-logo" src="/images/logos/clients/kromo.svg">
+          </a>
+        </li>
+        <li>
+          <a  href="https://hugo-fresh.vercel.app/" >
+            <img class="partner-logo" src="/images/logos/clients/infinite.svg">
+          </a>
+        </li>
+        <li>
+          <a  href="https://bulma.io/" >
+            <img class="partner-logo" src="/images/logos/clients/gutwork.svg">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+    
+
+    
+    
+<section class="section section-feature-grey is-medium" id="section1">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">Junto a ti desde 1989.</h2>
+      <h3 class="subtitle is-5 is-muted">Gama completa de servicios médico-quirúrgicos para toda la familia</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>Enfoque centrado en el paciente</h4>
+            </div>
+            <div class="card-icon">
+                <img src="/images/illustrations/icons/mouse-globe.svg">
+            </div>
+            <div class="card-text">
+                <p>This is some explanatory text that is on two rows</p>
+            </div>
+            <div class="card-action">
+              <a href="/" class="button btn-align-md accent-btn raised">Free trial</a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>Servicio médico de calidad</h4>
+            </div>
+            <div class="card-icon">
+                <img src="/images/illustrations/icons/laptop-cloud.svg">
+            </div>
+            <div class="card-text">
+                <p>This is some explanatory text that is on two rows</p>
+            </div>
+            <div class="card-action">
+              <a href="/" class="button btn-align-md accent-btn raised">Get started</a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>Asequible y accesible</h4>
+            </div>
+            <div class="card-icon">
+                <img src="/images/illustrations/icons/plug-cloud.svg">
+            </div>
+            <div class="card-text">
+                <p>This is some explanatory text that is on two rows</p>
+            </div>
+            <div class="card-action">
+              <a href="/" class="button btn-align-md accent-btn raised">Get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+
+    
+    
+<section class="section is-medium" id="section2">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Atención integral para adultos y niños</h1>
+        <h3 class="subtitle is-5 is-muted">Poseemos los servicios necesarios para ofrecerte una atención de calidad.</h3>
+        <div class="divider"></div>
+      </div>
+      <div class="column is-7 mt-60">
+        <article class="media icon-box">
+          <figure class="media-left">
+            <p class="image">
+              <img src="/images/illustrations/icons/laptop-globe.svg">
+            </p>
+          </figure>
+          <div class="media-content mt-50">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">Departamento de medicina</span>
+
+                <span class="icon-box-text">Partimos de una visión global del paciente junto con el apoyo del resto de departamentos para llegar al un diagnóstico certero. El apoyo tecnológico de esta nueva etapa  incrementa la capacidad resolutiva de nuestros profesionales.El apoyo de facultativos de referencia permite el manejo de paciente de alta complejidad.</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="media icon-box">
+          <figure class="media-left">
+            <p class="image">
+              <img src="/images/illustrations/icons/doc-sync.svg">
+            </p>
+          </figure>
+          <div class="media-content mt-50">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">Departamento de cirugía</span>
+
+                <span class="icon-box-text">Nuestro equipo quirúrgico altamente capacitado para solucionar un alto porcentaje de patología, tanto el pre y postquirúrgico son evaluados por un equipo multidisciplinar para valoración de riesgo y minimizar complicaciones.</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="media icon-box">
+          <figure class="media-left">
+            <p class="image">
+              <img src="/images/illustrations/icons/mobile-feed.svg">
+            </p>
+          </figure>
+          <div class="media-content mt-50">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">Laboratorio clínico</span>
+
+                <span class="icon-box-text">Nuestro laboratorio clínico cumple con los estándares establecidos para garantizar resultados más fiables. Somos parte de la red tecnología del Hospital Olivo compartiendo información entre sus sistemas para brindarte todo tu historial clínico en un solo lugar.</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="media icon-box">
+          <figure class="media-left">
+            <p class="image">
+              <img src="/images/illustrations/icons/mobile-feed.svg">
+            </p>
+          </figure>
+          <div class="media-content mt-50">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">Departamento de imágenes</span>
+
+                <span class="icon-box-text">Con equipos de última generación y sistemas de recolección de datos que apoyaran el diagnóstico de médicos y cirujanos.También nos encontramos enlazados con el sistema principal del Hospital Olivo para brindarte todos tus estudios de imagen en un solo lugar.</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="media icon-box">
+          <figure class="media-left">
+            <p class="image">
+              <img src="/images/illustrations/icons/doc-sync.svg">
+            </p>
+          </figure>
+          <div class="media-content mt-50">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">Departamento de odontología</span>
+
+                <span class="icon-box-text">Poseemos el departamento equipado con la mayor tecnología para brindar atención en todas las especialidades odontológicas.</span>
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+    
+
+    
+    
+<section class="section section-feature-grey is-medium" id="section3">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="has-text-centered">
+          <img class="pushed-image" src="/images/illustrations/mockups/app-mockup.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">Nuestro blog</h2>
+      <h3 class="subtitle is-5 is-muted">Aqui podrás encontrar información sobre salud y actualidad, cada cierto tiempo actualizamos información de interés.</h3>
+    </div>
+
+    <p class="has-text-centered mt-20">
+      <a class="button cta is-large rounded secondary-btn raised" href="#">
+        Get started
+      </a>
+    </p>
+  </div>
+</section>
+    
+
+    
+
+    
+    
+<section class="section section-light-grey is-medium" id="section5">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">Tu salud es nuestra prioridad</h2>
+      <h3 class="subtitle is-5 is-muted">Separa tu cita médica</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns">
+        <div class="column is-6 is-offset-3">
+          <form>
+            <div class="columns is-multiline">
+              <div class="column is-6">
+                <input class="input is-medium" name="name" type="text" placeholder="Enter your name">
+              </div>
+              <div class="column is-6">
+                <input class="input is-medium" name="email" type="email" placeholder="Enter your email address">
+              </div>
+              <div class="column is-12">
+                <textarea class="textarea" name="message" rows="10" placeholder="Write something..."></textarea>
+              </div>
+              <div class="form-footer has-text-centered mt-10">
+                <button class="button cta is-large primary-btn raised is-clear">Envia un mensaje</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="/images/logos/fresh-white-alt.svg">
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Links</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Servicios
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Nosotros
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Contacto
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Trabaja con nosotros
+                </a>
+              </li>
+              <li>
+                <a href="/agb">
+                  Consulta tus resultados
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Institucionales</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Intranet
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Resultados
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Blog</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/blog/first">
+                  Ultimas noticias
+                </a>
+              </li>
+              <li>
+                <a href="/blog/second">
+                  Novedades
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3>Follow Us</h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                <a class="level-item" href="https://github.com/StefMa">
+                  <span class="icon"><i class="fa fa-whatsapp"></i></span>
+                </a>
+                <a class="level-item" href="https://dribbble.com/#">
+                  <span class="icon"><i class="fa fa-instagram"></i></span>
+                </a>
+                <a class="level-item" href="https://facebook.com/#">
+                  <span class="icon"><i class="fa fa-facebook"></i></span>
+                </a>
+                <a class="level-item" href="https://twitter.com/StefMa91">
+                  <span class="icon"><i class="fa fa-youtube"></i></span>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/images/logos/logo512.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-user"></span>
+          Consulta de resultados
+        </a>
+        <ul>
+          <li>
+            <a href="/">
+              Resultados de laboratorio
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              Resultados de imagenes
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              Resultados de anatomía patológica
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-envelope"></span>
+          Contacto
+        </a>
+        <ul>
+          <li>
+            <a href="/">
+              Teléfono
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              Whastapp
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              Email
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-image"></span>
+          Images
+        </a>
+        <ul>
+          <li>
+            <a href="/">
+              Library
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              Upload
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-cog"></span>
+          Settings
+        </a>
+        <ul>
+          <li>
+            <a href="/">
+              User settings
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              App settings
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+    
+    
+
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  </body>
+</html>
